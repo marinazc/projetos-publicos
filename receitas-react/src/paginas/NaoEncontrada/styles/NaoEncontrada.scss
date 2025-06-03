@@ -1,0 +1,72 @@
+@import "../../../style/style";
+
+.nao-encontrada {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    
+
+    &__msg-erro {
+        background-color: $verde-escuro;
+        color: $bege;
+        padding: 60px 20% 90px 20%;
+
+        & span {
+            font-size: 80px;
+            font-weight: 700;
+            text-shadow: 3px 3px 1px $verde-escuro-sombra;
+        }
+
+        & h1 {
+            font-size: 50px;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+    }
+
+    &__retorno {
+        padding: 50px 20% 70px 20%;
+        & p {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        & button {
+            border: none;
+            background-color: $amarelo-cinza;
+            padding: 18px;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 14px;
+            margin-top: 60px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .nao-encontrada {
+        &__msg-erro {
+            & span {
+                font-size: 40px;
+            }
+    
+            & h1 {
+                font-size: 25px;
+            }
+        }
+
+        &__retorno {
+            padding: 50px 20% 70px 20%;
+            & p {
+                font-size: 20px;
+            }
+    
+            & button {
+                padding: 18px;
+                font-size: 15px;
+            }
+        }
+    }
+}

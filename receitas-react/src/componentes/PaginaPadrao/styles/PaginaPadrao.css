@@ -1,0 +1,8 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+.main-container__conteudo {
+  flex: 1;
+}/*# sourceMappingURL=PaginaPadrao.css.map */

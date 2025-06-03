@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #F4FFC3;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 20px;
+}/*# sourceMappingURL=Menu.css.map */

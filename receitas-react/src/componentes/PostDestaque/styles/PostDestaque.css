@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.post-destaque {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 14px;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.post-destaque img {
+  border-radius: 14px 14px 0 0;
+  height: 150px;
+}
+.post-destaque h2 {
+  font-size: "Raleway", sans-serif;
+  font-size: 25px;
+}
+.post-destaque button {
+  display: inline-block;
+  border: none;
+  background-color: #A9C46C;
+  color: #F4FFC3;
+  font-size: 20px;
+  font-weight: 600;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 14px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .post-destaque {
+    width: 125px;
+    gap: 15px;
+  }
+  .post-destaque img {
+    height: 80px;
+  }
+  .post-destaque h2 {
+    font-size: 15px;
+  }
+  .post-destaque button {
+    font-size: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-bottom: 25px;
+  }
+}/*# sourceMappingURL=PostDestaque.css.map */

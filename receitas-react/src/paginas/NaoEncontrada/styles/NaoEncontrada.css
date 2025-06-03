@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nao-encontrada {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+.nao-encontrada__msg-erro {
+  background-color: #5D8736;
+  color: #F4FFC3;
+  padding: 60px 20% 90px 20%;
+}
+.nao-encontrada__msg-erro span {
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: 3px 3px 1px #3b6019;
+}
+.nao-encontrada__msg-erro h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.nao-encontrada__retorno {
+  padding: 50px 20% 70px 20%;
+}
+.nao-encontrada__retorno p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.nao-encontrada__retorno button {
+  border: none;
+  background-color: #e4e3b4;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 14px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .nao-encontrada__msg-erro span {
+    font-size: 40px;
+  }
+  .nao-encontrada__msg-erro h1 {
+    font-size: 25px;
+  }
+  .nao-encontrada__retorno {
+    padding: 50px 20% 70px 20%;
+  }
+  .nao-encontrada__retorno p {
+    font-size: 20px;
+  }
+  .nao-encontrada__retorno button {
+    padding: 18px;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=NaoEncontrada.css.map */

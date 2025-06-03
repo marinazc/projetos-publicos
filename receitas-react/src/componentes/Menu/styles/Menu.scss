@@ -1,0 +1,9 @@
+@import "../../../style/style";
+
+.menu {
+    background-color: $bege;    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 20px;
+}

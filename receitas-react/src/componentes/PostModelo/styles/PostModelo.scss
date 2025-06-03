@@ -1,0 +1,22 @@
+@import "../../../style/style";
+
+.post-modelo {
+    &__titulo {
+        background-color: $amarelo-cinza;
+        padding: 20px 15%;
+        // margin: 0 14% 0 14%;
+        font-family: $fonte-secundaria;
+    }
+
+    &__conteudo {
+        padding: 40px 15% 60px 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        & p {
+            text-align: justify;
+        }
+        
+    }
+}

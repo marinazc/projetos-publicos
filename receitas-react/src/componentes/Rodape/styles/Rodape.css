@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rodape {
+  background-color: #5D8736;
+  text-align: center;
+  padding: 20px;
+}
+.rodape h3 {
+  font-size: 15px;
+  color: #F4FFC3;
+  font-weight: 550;
+}
+.rodape a {
+  font-size: 15px;
+  color: #F4FFC3;
+  text-decoration: none;
+  font-weight: 700;
+}/*# sourceMappingURL=Rodape.css.map */

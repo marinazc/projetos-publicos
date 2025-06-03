@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.post-modelo__titulo {
+  background-color: #e4e3b4;
+  padding: 20px 15%;
+  font-family: "Playfair Display", sans-serif;
+}
+.post-modelo__conteudo {
+  padding: 40px 15% 60px 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.post-modelo__conteudo p {
+  text-align: justify;
+}/*# sourceMappingURL=PostModelo.css.map */

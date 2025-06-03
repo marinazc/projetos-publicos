@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 40px;
+  gap: 40px;
+}/*# sourceMappingURL=Posts.css.map */

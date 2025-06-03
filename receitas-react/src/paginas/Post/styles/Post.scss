@@ -1,0 +1,27 @@
+.post {
+    & h1, h2 {
+        margin-bottom: 5px;
+    }
+
+    & p, li {
+        text-align: justify;
+        font-size: 20px;
+        color: black;
+    }
+
+    & p, ul {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .post {
+        & h1, h2 {
+            font-size: 20px;
+        }
+    
+        & p, li {
+            font-size: 15px;
+        }
+    }
+}
