@@ -4,7 +4,7 @@ import "./styles/Posts.css"
 export default function Posts(props) {
     let listaReceitas = [];
     async function buscarReceitas() {
-        const con = await fetch("https://raw.githubusercontent.com/marinazc/receitas/refs/heads/master/src/receitas.json?token=GHSAT0AAAAAAC5ERVTG5UZTJTF6DZZ65E42Z5GSKCA")
+        const con = await fetch("https://raw.githubusercontent.com/marinazc/projetos-publicos/refs/heads/main/receitas-react/src/receitas.json?token=GHSAT0AAAAAADCPDNML4HX3YY2SZQTVDYMG2B7S3YA")
         listaReceitas = await con.json();
     }
     buscarReceitas();
