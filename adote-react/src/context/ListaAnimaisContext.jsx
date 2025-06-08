@@ -7,7 +7,7 @@ export function ListaAnimaisProvider({ children }) {
     const [listaAnimais, setListaAnimais] = useState([]);
   
     async function getListaAnimais() {
-      const res = await fetch("");
+      const res = await fetch("https://raw.githubusercontent.com/marinazc/projetos-publicos/refs/heads/main/adote-react/db.json");
       const data = await res.json();
       setListaAnimais(data);
     }
