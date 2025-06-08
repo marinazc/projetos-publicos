@@ -1,0 +1,63 @@
+@import '../../../styles/style';
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+    &__descricao {
+        width: 40%;
+
+        & h3 {
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    
+        & p {
+            text-align: justify;
+            font-size: 20px;
+        }
+    }
+
+    & img {
+        height: 220px;
+    }
+
+    &--inverter {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media (max-width: 767px) {
+    .banner-container {
+        flex-direction: column;
+        gap: 0px;
+
+        &__descricao {
+            width: 80%;
+
+            & h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+        
+            & p {
+                font-size: 14px;
+            }
+        }
+
+        & img {
+            height: 180px;
+        }
+
+        &--inverter {
+            flex-direction: column;
+        }
+    }
+}

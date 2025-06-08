@@ -1,0 +1,59 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.doacao-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.doacao-container__descricao {
+  text-align: center;
+}
+.doacao-container__descricao h3 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.doacao-container__descricao h3 strong {
+  font-weight: 700;
+}
+.doacao-container__descricao p {
+  font-size: 15px;
+}
+.doacao-container__projetos {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 40px;
+}
+
+@media (max-width: 767px) {
+  .doacao-container {
+    padding: 40px;
+    gap: 50px;
+  }
+  .doacao-container__descricao {
+    text-align: center;
+  }
+  .doacao-container__descricao h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .doacao-container__descricao p {
+    font-size: 10px;
+  }
+  .doacao-container__projetos {
+    width: 100%;
+    gap: 25px;
+  }
+}/*# sourceMappingURL=Doacao.css.map */

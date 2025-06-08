@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.naoEncontrada-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 60px;
+}
+.naoEncontrada-container h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.naoEncontrada-container h3 {
+  font-size: 20px;
+  margin: 20px 0 35px 0;
+}
+.naoEncontrada-container a {
+  background-color: #ff66c4;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 14px;
+  margin: 0 auto;
+}/*# sourceMappingURL=NaoEncontrada.css.map */

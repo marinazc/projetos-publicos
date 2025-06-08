@@ -1,0 +1,43 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.miniaturaPet-container {
+  width: 160px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+}
+.miniaturaPet-container img {
+  height: 160px;
+  width: 160px;
+  border-radius: 14px 14px 0 0;
+}
+.miniaturaPet-container__infos {
+  position: relative;
+  background-color: #ffbd59;
+  border-radius: 0 0 14px 14px;
+  padding: 15px 20px;
+  color: #000000;
+}
+.miniaturaPet-container__infos h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.miniaturaPet-container__infos h3 {
+  font-size: 16px;
+  margin: 5px 0 7px 0;
+}
+.miniaturaPet-container__infos h4 {
+  font-size: 16px;
+}
+.miniaturaPet-container:hover {
+  transform: scale(1.08);
+  transition: 300ms linear;
+}/*# sourceMappingURL=MiniaturaPet.css.map */

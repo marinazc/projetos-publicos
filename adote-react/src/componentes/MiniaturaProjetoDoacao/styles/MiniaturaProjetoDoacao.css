@@ -1,0 +1,50 @@
+.miniaturaProjeto-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 450px;
+}
+.miniaturaProjeto-container img {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.miniaturaProjeto-container__destaque h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.miniaturaProjeto-container__destaque h4 a {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.miniaturaProjeto-container__destaque h5 {
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .miniaturaProjeto-container {
+    gap: 10px;
+    width: 100%;
+  }
+  .miniaturaProjeto-container img {
+    width: 50px;
+    height: 50px;
+  }
+  .miniaturaProjeto-container__destaque h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .miniaturaProjeto-container__destaque h4 a {
+    font-size: 14px;
+  }
+  .miniaturaProjeto-container__destaque h5 {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=MiniaturaProjetoDoacao.css.map */

@@ -1,0 +1,45 @@
+@import '../../../styles/style';
+
+.CardEspeciePet-container {
+    display: flex;
+    flex-direction: column;
+    background-color: $pink;
+    width: fit-content;
+    padding: 15px 25px;
+    border-radius: 36px;
+    cursor: pointer;
+    text-align: center;
+
+    & img {
+        height: 68px;
+        width: 68px;
+        margin-bottom: 10px;
+    }
+
+    & h3 {
+        font-size: 16px;
+        font-weight: bold;
+        color: $branco;
+    }
+
+    &:hover {
+        background-color: $pink-escuro;
+    }
+
+    &.CardEspeciePet-container--selecionado {
+        background-color: $pink-escuro;
+    }
+}
+
+@media (max-width: 767px) {
+    .CardEspeciePet-container {
+        & img {
+            height: 45px;
+            width: 45px;
+        }
+
+        & h3 {
+            font-size: 10px;
+        }
+    }
+}

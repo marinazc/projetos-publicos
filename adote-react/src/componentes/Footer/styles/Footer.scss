@@ -1,0 +1,21 @@
+@import '../../../styles/style';
+
+.footer-container {
+    @include gradiente;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    & p {
+        font-size: 12px;
+        font-weight: bold;
+        color: $azul-escuro;
+        font-family: $fonte-principal;
+    }
+
+    & a {
+        font-size: 12px;
+        font-weight: bolder;
+        color: $azul-escuro;
+    }
+}

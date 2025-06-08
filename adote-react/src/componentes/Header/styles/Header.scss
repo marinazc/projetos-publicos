@@ -1,0 +1,88 @@
+@import '../../../styles/style';
+
+.header-container {
+    @include gradiente;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 140px;
+
+    & h1 {
+        // font-family: $fonte-titulo;
+        font-family: $fonte-titulo-alternativa;
+        font-size: 38px;
+        color: $azul-escuro;
+        font-weight: 300;
+    }
+
+    & a {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: $branco;
+    }
+
+    & svg {
+        width: 35px;
+        height: 35px;
+        fill: $azul-escuro;
+    }
+
+    &__links {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-container {
+        padding: 15px 70px;
+
+        & h1 {
+            font-size: 30px;
+        }
+
+        & a {
+            font-size: 20px;
+        }
+
+        & svg {
+            width: 27px;
+            height: 27px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header-container {
+        padding: 15px 20px;
+
+        & h1 {
+            font-size: 23px;
+        }
+
+        & a {
+            font-size: 16px;
+        }
+
+        & svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        &__links {
+            display: flex;
+            gap: 8px;
+        }
+
+        &__icons {
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

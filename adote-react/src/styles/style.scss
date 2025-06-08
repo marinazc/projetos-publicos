@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/another-shabby');
+@import url('https://fonts.cdnfonts.com/css/chewy');
+
+$fonte-titulo: 'another shabby', sans-serif;
+$fonte-titulo-alternativa: 'Chewy', sans-serif;
+$fonte-principal: 'proxima-nova', sans-serif;
+
+$amarelo-mostarda: #ffde59;
+$azul-claro: #a5cdf4;
+$azul-escuro: #004aad;
+$branco: #ffffff;
+$branco-gelo: #f9f9f9;
+$cinza-claro: #a6a6a6;
+$laranja: #ffbd59;
+$pink: #ff66c4;
+$pink-escuro: #f631aa;
+$preto: #000000;
+$roxo: #cb6ce6;
+$verde-claro: #e1ffce;
+$verde-limao: #c1ff72;
+
+@mixin gradiente {
+    background: #CDFFD8;
+    background: linear-gradient(90deg, rgba(205, 255, 216, 1) 0%, rgba(148, 185, 255, 1) 100%);
+}
+
+html, body {
+    font-family: $fonte-principal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.filtroBusca-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.filtroBusca-container__filtro {
+  display: flex;
+  gap: 20px;
+  background-color: #e1ffce;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px 30px;
+  border-radius: 15px;
+  align-self: center;
+}
+.filtroBusca-container__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.filtroBusca-container__buttons--filtrar {
+  background-color: #004aad;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 14px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+.filtroBusca-container__buttons--limpar {
+  font-size: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 3px;
+}
+.filtroBusca-container__especies {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .filtroBusca-container__filtro {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .filtroBusca-container__filtro {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 10px;
+    gap: 10px;
+  }
+  .filtroBusca-container__buttons--filtrar {
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  .filtroBusca-container__buttons--limpar {
+    font-size: 9px;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=FiltroBusca.css.map */

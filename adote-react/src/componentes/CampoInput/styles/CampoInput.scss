@@ -1,0 +1,38 @@
+@import '../../../styles/style';
+
+.campoInput {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+    & label {
+        font-family: $fonte-principal;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    & select,
+    & input {
+        border: 1px solid $cinza-claro;
+        background-color: $branco-gelo;
+        padding: 3px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .campoInput {
+        width: 115px;
+
+        & label {
+            font-size: 10px;
+            margin-bottom: 3px;
+        }
+
+        & select,
+        & input {
+            font-size: 10px;
+        }
+    }
+}

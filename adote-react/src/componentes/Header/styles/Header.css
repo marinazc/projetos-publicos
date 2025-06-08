@@ -1,0 +1,81 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background: #CDFFD8;
+  background: linear-gradient(90deg, rgb(205, 255, 216) 0%, rgb(148, 185, 255) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 140px;
+}
+.header-container h1 {
+  font-family: "Chewy", sans-serif;
+  font-size: 38px;
+  color: #004aad;
+  font-weight: 300;
+}
+.header-container a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header-container svg {
+  width: 35px;
+  height: 35px;
+  fill: #004aad;
+}
+.header-container__links {
+  display: flex;
+  gap: 40px;
+}
+.header-container__icons {
+  display: flex;
+  gap: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-container {
+    padding: 15px 70px;
+  }
+  .header-container h1 {
+    font-size: 30px;
+  }
+  .header-container a {
+    font-size: 20px;
+  }
+  .header-container svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+@media (max-width: 767px) {
+  .header-container {
+    padding: 15px 20px;
+  }
+  .header-container h1 {
+    font-size: 23px;
+  }
+  .header-container a {
+    font-size: 16px;
+  }
+  .header-container svg {
+    width: 22px;
+    height: 22px;
+  }
+  .header-container__links {
+    display: flex;
+    gap: 8px;
+  }
+  .header-container__icons {
+    display: flex;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,61 @@
+@import '../../../styles/style';
+
+.doacao-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    &__descricao {
+        text-align: center;
+        & h3 {
+            font-size: 27px;
+            margin-bottom: 10px;
+            font-weight: 400;
+
+            & strong {
+                font-weight: 700;
+            }
+        }
+
+        & p {
+            font-size: 15px;
+        }
+    }
+
+    &__projetos {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px 40px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .doacao-container {
+        padding: 40px;
+
+        gap: 50px;
+
+        &__descricao {
+            text-align: center;
+            & h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            & p {
+                font-size: 10px;
+            }
+        }
+
+        &__projetos {
+            width: 100%;
+            gap: 25px;
+        }
+    }
+}

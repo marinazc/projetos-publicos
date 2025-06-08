@@ -1,0 +1,42 @@
+@import '../../../styles/style';
+
+.miniaturaPet-container {
+    width: 160px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+
+    & img {
+        height: 160px;
+        width: 160px;
+        border-radius: 14px 14px 0 0;
+    }
+
+    &__infos {
+        position: relative;
+        background-color: $laranja;
+        border-radius: 0 0 14px 14px;
+        padding: 15px 20px;
+        color: $preto;
+
+        & h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        & h3 {
+            font-size: 16px;
+            margin: 5px 0 7px 0;
+        }
+
+        & h4 {
+            font-size: 16px;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.08);
+        transition: 300ms linear; 
+    }
+}

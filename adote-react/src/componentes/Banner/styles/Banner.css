@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.banner-container__descricao {
+  width: 40%;
+}
+.banner-container__descricao h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.banner-container__descricao p {
+  text-align: justify;
+  font-size: 20px;
+}
+.banner-container img {
+  height: 220px;
+}
+.banner-container--inverter {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+  .banner-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .banner-container__descricao {
+    width: 80%;
+  }
+  .banner-container__descricao h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-container__descricao p {
+    font-size: 14px;
+  }
+  .banner-container img {
+    height: 180px;
+  }
+  .banner-container--inverter {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Banner.css.map */

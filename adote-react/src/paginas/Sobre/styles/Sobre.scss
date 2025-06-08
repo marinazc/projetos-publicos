@@ -1,0 +1,16 @@
+@import '../../../styles/style';
+
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media (max-width: 767px) {
+    .sobre-container {
+        gap: 15px;
+    }
+}

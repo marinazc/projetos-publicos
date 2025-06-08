@@ -1,0 +1,62 @@
+.miniaturaProjeto-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 450px;
+
+    & img {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+
+    &__destaque {
+        & h4 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.3;
+            
+            & a {
+                font-weight: 700;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+                word-break: break-word;
+                overflow-wrap: anywhere;
+            }
+        }
+
+        & h5 {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .miniaturaProjeto-container {
+        gap: 10px;
+        width: 100%;
+
+        & img {
+            width: 50px;
+            height: 50px;
+        }
+
+        &__destaque {
+            & h4 {
+                margin-bottom: 5px;
+                font-size: 12px;
+                
+                & a {
+                    font-size: 14px;
+                }
+            }
+
+            & h5 {
+                font-size: 10px;
+            }
+        }
+    }
+}

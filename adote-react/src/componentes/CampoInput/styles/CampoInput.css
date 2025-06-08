@@ -1,0 +1,39 @@
+@import url("https://fonts.cdnfonts.com/css/another-shabby");
+@import url("https://fonts.cdnfonts.com/css/chewy");
+html, body {
+  font-family: "proxima-nova", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.campoInput {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.campoInput label {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.campoInput select, .campoInput input {
+  border: 1px solid #a6a6a6;
+  background-color: #f9f9f9;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .campoInput {
+    width: 115px;
+  }
+  .campoInput label {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  .campoInput select, .campoInput input {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=CampoInput.css.map */
